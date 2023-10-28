@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export function LazyLoadComponent({ path }) {
+function LazyLoadComponent({ path }) {
   const [Component, setComponent] = useState(null);
 
   useEffect(() => {

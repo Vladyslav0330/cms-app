@@ -1,6 +1,6 @@
 import React from "react";
 
-const DummyList = () => (
+export const DummyList = () => (
   <table>
     <tr>
       <td>Dummy</td>
@@ -9,4 +9,4 @@ const DummyList = () => (
   </table>
 );
 
-export default DummyList;
+

@@ -1,6 +1,6 @@
 import React from "react";
 
-const DummyChart = () => (
+export const DummyChart = () => (
   <table>
     <tr>
       <td>Dummy</td>
@@ -8,5 +8,3 @@ const DummyChart = () => (
     </tr>
   </table>
 );
-
-export default DummyChart;

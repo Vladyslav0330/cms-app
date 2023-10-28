@@ -1,6 +1,6 @@
 import React from "react";
 
-const DummyTable = () => (
+export const DummyTable = () => (
   <table>
     <tr>
       <td>Dummy</td>
@@ -8,5 +8,3 @@ const DummyTable = () => (
     </tr>
   </table>
 );
-
-export default DummyTable;
